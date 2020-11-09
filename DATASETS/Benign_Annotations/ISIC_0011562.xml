@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Benign</folder>
+	<filename>ISIC_0011562.jpg</filename>
+	<path>/Users/akrati/Downloads/Filtered-Dataset/Benign/ISIC_0011562.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>6640</width>
+		<height>4411</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Detected Lesion</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1093</xmin>
+			<ymin>1005</ymin>
+			<xmax>3793</xmax>
+			<ymax>3058</ymax>
+		</bndbox>
+	</object>
+</annotation>
