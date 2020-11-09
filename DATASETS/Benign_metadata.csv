@@ -1,0 +1,915 @@
+_id,name,meta.clinical.age_approx,meta.clinical.anatom_site_general,meta.clinical.benign_malignant,meta.clinical.clin_size_long_diam_mm,meta.clinical.diagnosis,meta.clinical.diagnosis_confirm_type,meta.clinical.family_hx_mm,meta.clinical.lesion_id,meta.clinical.mel_class,meta.clinical.mel_mitotic_index,meta.clinical.mel_thick_mm,meta.clinical.mel_type,meta.clinical.mel_ulcer,meta.clinical.melanocytic,meta.clinical.nevus_type,meta.clinical.patient_id,meta.clinical.personal_hx_mm,meta.clinical.sex,meta.acquisition.acquisition_day,meta.acquisition.blurry,meta.acquisition.color_tint,meta.acquisition.dermoscopic_type,meta.acquisition.hairy,meta.acquisition.image_type,meta.acquisition.marker_pen,meta.acquisition.pixelsX,meta.acquisition.pixelsY
+558d6087bae47801cf734378,ISIC_0009877,25,lower extremity,benign,4.5,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6088bae47801cf73437e,ISIC_0009879,25,anterior torso,benign,5,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6089bae47801cf734381,ISIC_0009880,50,lower extremity,benign,6,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6089bae47801cf734384,ISIC_0009881,55,anterior torso,benign,6,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d608abae47801cf73438a,ISIC_0009883,60,posterior torso,benign,5,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d608abae47801cf73438d,ISIC_0009884,60,upper extremity,benign,4,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d608bbae47801cf734390,ISIC_0009885,60,lower extremity,benign,2,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d608cbae47801cf734399,ISIC_0009888,25,anterior torso,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d608fbae47801cf7343ae,ISIC_0009895,30,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6090bae47801cf7343b1,ISIC_0009896,30,anterior torso,benign,9,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6091bae47801cf7343ba,ISIC_0009899,35,anterior torso,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6091bae47801cf7343bd,ISIC_0009900,60,head/neck,benign,7,lentigo NOS,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6094bae47801cf7343c9,ISIC_0009904,15,posterior torso,benign,8,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6095bae47801cf7343cf,ISIC_0009906,55,anterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6096bae47801cf7343d8,ISIC_0009909,15,lower extremity,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6099bae47801cf7343e7,ISIC_0009914,55,posterior torso,benign,4.5,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d609abae47801cf7343ea,ISIC_0009915,45,head/neck,benign,8,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d609bbae47801cf7343f0,ISIC_0009917,25,upper extremity,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d609cbae47801cf7343f6,ISIC_0009919,50,lower extremity,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d609dbae47801cf7343fc,ISIC_0009921,25,anterior torso,benign,9,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d609ebae47801cf734402,ISIC_0009923,30,anterior torso,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60a1bae47801cf734411,ISIC_0009928,25,upper extremity,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60a1bae47801cf734414,ISIC_0009929,15,anterior torso,benign,2,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60a2bae47801cf734417,ISIC_0009930,15,anterior torso,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60a2bae47801cf73441a,ISIC_0009931,30,posterior torso,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60a3bae47801cf73441d,ISIC_0009932,30,posterior torso,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60a3bae47801cf734420,ISIC_0009933,35,posterior torso,benign,3,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60a4bae47801cf734426,ISIC_0009935,35,posterior torso,benign,4,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60a4bae47801cf734429,ISIC_0009936,30,posterior torso,benign,2,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d60a5bae47801cf73442c,ISIC_0009937,45,lower extremity,benign,3,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d60a6bae47801cf734432,ISIC_0009939,35,posterior torso,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d60a7bae47801cf734435,ISIC_0009940,35,anterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d60a7bae47801cf734438,ISIC_0009941,40,lower extremity,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d60a8bae47801cf73443b,ISIC_0009942,25,anterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60a8bae47801cf73443e,ISIC_0009943,35,posterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d60a9bae47801cf734441,ISIC_0009944,20,anterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d60aabae47801cf734444,ISIC_0009945,20,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d60abbae47801cf73444a,ISIC_0009947,25,lower extremity,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60acbae47801cf73444d,ISIC_0009948,40,posterior torso,benign,9,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d60acbae47801cf734450,ISIC_0009949,50,anterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60adbae47801cf734456,ISIC_0009951,55,lower extremity,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60aebae47801cf734459,ISIC_0009952,55,anterior torso,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60aebae47801cf73445c,ISIC_0009953,60,anterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d60b0bae47801cf734465,ISIC_0009956,20,anterior torso,benign,8,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60b3bae47801cf734474,ISIC_0009961,65,lower extremity,benign,12,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d60b3bae47801cf73447a,ISIC_0009963,45,lower extremity,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d60b4bae47801cf734480,ISIC_0009965,80,posterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60b4bae47801cf734483,ISIC_0009966,20,posterior torso,benign,8,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60b5bae47801cf734486,ISIC_0009967,15,lower extremity,benign,8,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60b6bae47801cf734489,ISIC_0009968,60,upper extremity,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60b8bae47801cf734498,ISIC_0009973,45,upper extremity,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60babae47801cf73449e,ISIC_0009975,80,anterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60bdbae47801cf7344b0,ISIC_0009981,40,lower extremity,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d60bdbae47801cf7344b3,ISIC_0009982,40,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d60bfbae47801cf7344bc,ISIC_0009985,45,anterior torso,benign,8,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60bfbae47801cf7344bf,ISIC_0009986,25,lower extremity,benign,2,lentigo NOS,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d60c0bae47801cf7344c2,ISIC_0009987,25,posterior torso,benign,4.5,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d60c2bae47801cf7344ce,ISIC_0009991,45,posterior torso,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60c3bae47801cf7344d7,ISIC_0009994,60,anterior torso,benign,7,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d60c5bae47801cf7344e3,ISIC_0009998,70,posterior torso,benign,10,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60c7bae47801cf7344ef,ISIC_0010002,25,posterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60c8bae47801cf7344f5,ISIC_0010004,50,lower extremity,benign,3,lentigo simplex,histopathology,TRUE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d60c8bae47801cf7344f8,ISIC_0010005,75,posterior torso,benign,14,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60c9bae47801cf7344fb,ISIC_0010006,45,posterior torso,benign,10,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60cabae47801cf734504,ISIC_0010009,20,lower extremity,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d60cbbae47801cf734507,ISIC_0010010,20,lower extremity,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d60ccbae47801cf73450d,ISIC_0010012,70,head/neck,benign,10,lentigo NOS,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60cdbae47801cf734513,ISIC_0010014,50,anterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60cebae47801cf734516,ISIC_0010015,45,anterior torso,benign,8,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60cfbae47801cf73451c,ISIC_0010017,45,posterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60d0bae47801cf73451f,ISIC_0010018,45,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60d1bae47801cf734522,ISIC_0010019,70,posterior torso,benign,8,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60d1bae47801cf734525,ISIC_0010020,80,anterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d60d1bae47801cf734528,ISIC_0010021,35,posterior torso,benign,9,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60d2bae47801cf73452b,ISIC_0010022,60,posterior torso,benign,9,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60d5bae47801cf73453d,ISIC_0010028,65,lower extremity,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60dabae47801cf734558,ISIC_0010037,45,lower extremity,benign,9.5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60dabae47801cf73455b,ISIC_0010038,50,anterior torso,benign,6,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60dbbae47801cf734561,ISIC_0010040,45,anterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60dcbae47801cf734567,ISIC_0010042,50,upper extremity,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d60debae47801cf734573,ISIC_0010046,55,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60e1bae47801cf734588,ISIC_0010053,65,lower extremity,benign,2,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60e3bae47801cf734594,ISIC_0010057,55,posterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60e5bae47801cf7345a0,ISIC_0010061,40,posterior torso,benign,2,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60e6bae47801cf7345a3,ISIC_0010062,35,lower extremity,benign,10,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d60e7bae47801cf7345a9,ISIC_0010064,20,lower extremity,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d60e8bae47801cf7345af,ISIC_0010066,35,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d611ebae47801cf7346e4,ISIC_0010069,65,anterior torso,benign,1.5,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d611ebae47801cf7346e7,ISIC_0010070,10,lower extremity,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d611fbae47801cf7346ea,ISIC_0010071,25,anterior torso,benign,7,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6120bae47801cf7346f3,ISIC_0010074,20,posterior torso,benign,5,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6122bae47801cf7346ff,ISIC_0010078,25,head/neck,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6122bae47801cf734702,ISIC_0010079,60,anterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6126bae47801cf734714,ISIC_0010085,65,head/neck,benign,4,lentigo NOS,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6127bae47801cf73471d,ISIC_0010088,45,lower extremity,benign,2.3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6128bae47801cf734723,ISIC_0010090,45,lower extremity,benign,1,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6128bae47801cf734726,ISIC_0010091,15,posterior torso,benign,10.5,,single image expert consensus,TRUE,,,,,,,,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6129bae47801cf734729,ISIC_0010092,25,posterior torso,benign,5,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d612abae47801cf734732,ISIC_0010095,50,posterior torso,benign,13,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d612bbae47801cf734735,ISIC_0010096,70,head/neck,benign,5,solar lentigo,histopathology,FALSE,,,,,,,FALSE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d612cbae47801cf734738,ISIC_0010097,35,posterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d612cbae47801cf73473b,ISIC_0010098,55,posterior torso,benign,9,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d612dbae47801cf734741,ISIC_0010100,50,lower extremity,benign,6,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d612fbae47801cf734747,ISIC_0010102,50,head/neck,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6130bae47801cf734750,ISIC_0010105,40,upper extremity,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6132bae47801cf734756,ISIC_0010107,45,head/neck,benign,2.5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6132bae47801cf73475c,ISIC_0010109,55,anterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6133bae47801cf73475f,ISIC_0010110,40,lower extremity,benign,4,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6134bae47801cf734762,ISIC_0010111,45,upper extremity,benign,2,lentigo NOS,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6134bae47801cf734765,ISIC_0010112,45,upper extremity,benign,3,lentigo NOS,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6135bae47801cf734768,ISIC_0010113,65,lower extremity,benign,6.3,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6136bae47801cf734771,ISIC_0010116,45,anterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6137bae47801cf734774,ISIC_0010117,50,posterior torso,benign,4.6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d613abae47801cf734786,ISIC_0010123,60,lower extremity,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d613cbae47801cf734792,ISIC_0010127,70,lower extremity,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d613fbae47801cf7347a1,ISIC_0010132,60,posterior torso,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6145bae47801cf7347bf,ISIC_0010142,30,lower extremity,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6146bae47801cf7347c5,ISIC_0010144,70,lower extremity,benign,4,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6147bae47801cf7347cb,ISIC_0010146,45,posterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6148bae47801cf7347ce,ISIC_0010147,55,upper extremity,benign,5,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6149bae47801cf7347d4,ISIC_0010149,25,upper extremity,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6149bae47801cf7347d7,ISIC_0010150,25,anterior torso,benign,3.5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d614abae47801cf7347da,ISIC_0010151,25,anterior torso,benign,10,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d614bbae47801cf7347e3,ISIC_0010154,85,upper extremity,benign,2,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d614cbae47801cf7347e6,ISIC_0010155,40,posterior torso,benign,6,,single image expert consensus,TRUE,,,,,,,,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d614dbae47801cf7347ec,ISIC_0010157,25,anterior torso,benign,3.5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d614ebae47801cf7347ef,ISIC_0010158,25,anterior torso,benign,9,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d614ebae47801cf7347f5,ISIC_0010160,55,lower extremity,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d614fbae47801cf7347f8,ISIC_0010161,55,anterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6150bae47801cf7347fe,ISIC_0010163,10,lower extremity,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6152bae47801cf73480a,ISIC_0010167,35,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6153bae47801cf73480d,ISIC_0010168,65,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6155bae47801cf734819,ISIC_0010172,35,anterior torso,benign,2,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6155bae47801cf73481c,ISIC_0010173,25,lower extremity,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6157bae47801cf734825,ISIC_0010176,20,upper extremity,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6159bae47801cf734837,ISIC_0010182,40,lower extremity,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d615bbae47801cf734840,ISIC_0010185,55,anterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d615cbae47801cf734846,ISIC_0010187,30,lower extremity,benign,6.5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d615ebae47801cf734852,ISIC_0010191,75,posterior torso,benign,10,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6160bae47801cf73485e,ISIC_0010195,30,anterior torso,benign,10,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6161bae47801cf734861,ISIC_0010196,75,lower extremity,benign,2,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6162bae47801cf734867,ISIC_0010198,20,anterior torso,benign,8,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6162bae47801cf73486a,ISIC_0010199,15,head/neck,benign,4,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6163bae47801cf734870,ISIC_0010201,35,anterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6163bae47801cf734873,ISIC_0010202,35,posterior torso,benign,8,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6164bae47801cf734876,ISIC_0010203,35,anterior torso,benign,2,lentigo simplex,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6165bae47801cf73487c,ISIC_0010205,15,lower extremity,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6169bae47801cf734891,ISIC_0010212,50,head/neck,benign,6.5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d616abae47801cf734894,ISIC_0010213,50,posterior torso,benign,9,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d616bbae47801cf73489a,ISIC_0010215,80,posterior torso,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d616dbae47801cf7348a3,ISIC_0010218,50,anterior torso,benign,4,,single image expert consensus,FALSE,,,,,,,,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d616ebae47801cf7348a6,ISIC_0010219,30,posterior torso,benign,3,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d616ebae47801cf7348a9,ISIC_0010220,25,posterior torso,benign,5,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6171bae47801cf7348bb,ISIC_0010226,55,posterior torso,benign,5,nevus,histopathology,,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6174bae47801cf7348d0,ISIC_0010233,30,anterior torso,benign,10,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6175bae47801cf7348d3,ISIC_0010234,55,anterior torso,benign,2,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6176bae47801cf7348d9,ISIC_0010236,45,posterior torso,benign,9,nevus,histopathology,,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6177bae47801cf7348dc,ISIC_0010237,45,posterior torso,benign,6,nevus,histopathology,,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d617cbae47801cf734900,ISIC_0010248,35,upper extremity,benign,5,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d617fbae47801cf734915,ISIC_0010255,30,lower extremity,benign,1,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6180bae47801cf734918,ISIC_0010256,30,anterior torso,benign,2,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6180bae47801cf73491b,ISIC_0010257,20,posterior torso,benign,8,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6181bae47801cf734924,ISIC_0010260,45,anterior torso,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6182bae47801cf734927,ISIC_0010261,60,posterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6182bae47801cf73492a,ISIC_0010262,20,anterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6187bae47801cf734948,ISIC_0010272,30,posterior torso,benign,8,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6189bae47801cf734954,ISIC_0010276,75,upper extremity,benign,5,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6189bae47801cf734957,ISIC_0010277,75,lower extremity,benign,6,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d618abae47801cf73495d,ISIC_0010279,70,upper extremity,benign,5.5,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d618dbae47801cf734963,ISIC_0010281,0,anterior torso,benign,7.5,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6190bae47801cf734975,ISIC_0010287,65,lower extremity,benign,2,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6192bae47801cf734981,ISIC_0010291,50,posterior torso,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d619abae47801cf734990,ISIC_0010296,45,posterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d619cbae47801cf73499c,ISIC_0010300,70,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d619ebae47801cf7349a8,ISIC_0010304,30,lower extremity,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d619fbae47801cf7349ab,ISIC_0010305,70,posterior torso,benign,7,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d619fbae47801cf7349ae,ISIC_0010306,70,posterior torso,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d619fbae47801cf7349b1,ISIC_0010307,50,posterior torso,benign,6,,single image expert consensus,FALSE,,,,,,,,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d61a0bae47801cf7349b7,ISIC_0010309,35,posterior torso,benign,7,,histopathology,FALSE,,,,,,,,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d62d9bae47801cf7349ea,ISIC_0010326,50,anterior torso,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d62ddbae47801cf7349fc,ISIC_0010332,65,head/neck,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d62ddbae47801cf7349ff,ISIC_0010333,70,posterior torso,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d62debae47801cf734a02,ISIC_0010334,65,anterior torso,benign,7,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d62debae47801cf734a05,ISIC_0010335,65,lower extremity,benign,7,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d62dfbae47801cf734a08,ISIC_0010336,45,head/neck,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d62e0bae47801cf734a0b,ISIC_0010337,45,upper extremity,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d62e0bae47801cf734a0e,ISIC_0010338,45,anterior torso,benign,5,lentigo NOS,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d62e0bae47801cf734a11,ISIC_0010339,45,upper extremity,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d62e1bae47801cf734a14,ISIC_0010340,40,anterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d62e2bae47801cf734a1a,ISIC_0010342,40,anterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d62e3bae47801cf734a20,ISIC_0010344,50,upper extremity,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d62e4bae47801cf734a26,ISIC_0010346,30,anterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d62e5bae47801cf734a2c,ISIC_0010348,30,posterior torso,benign,2,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d62e7bae47801cf734a38,ISIC_0010352,65,posterior torso,benign,3,lentigo NOS,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d62e7bae47801cf734a3b,ISIC_0010353,80,lower extremity,benign,7,solar lentigo,histopathology,FALSE,,,,,,,FALSE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d62e9bae47801cf734a44,ISIC_0010356,35,lower extremity,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d62e9bae47801cf734a47,ISIC_0010357,40,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d62ecbae47801cf734a56,ISIC_0010362,25,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d62eebae47801cf734a5f,ISIC_0010365,65,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d62efbae47801cf734a65,ISIC_0010367,60,lower extremity,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d62efbae47801cf734a68,ISIC_0010368,70,posterior torso,benign,7,nevus,histopathology,,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d62f0bae47801cf734a6e,ISIC_0010370,65,head/neck,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d62f0bae47801cf734a71,ISIC_0010371,70,head/neck,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d62f1bae47801cf734a77,ISIC_0010373,85,upper extremity,benign,4,solar lentigo,histopathology,FALSE,,,,,,,FALSE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d62f2bae47801cf734a7a,ISIC_0010374,40,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d62f3bae47801cf734a83,ISIC_0010377,80,posterior torso,benign,5,,histopathology,FALSE,,,,,,,,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d62f8bae47801cf734a9e,ISIC_0010386,65,posterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d62fabae47801cf734aa7,ISIC_0010389,75,head/neck,benign,4,seborrheic keratosis,histopathology,FALSE,,,,,,,FALSE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d62fcbae47801cf734ab9,ISIC_0010395,50,lower extremity,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d62ffbae47801cf734ac5,ISIC_0010399,50,lower extremity,benign,7,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6303bae47801cf734ae0,ISIC_0010408,50,upper extremity,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6304bae47801cf734ae3,ISIC_0010409,50,anterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6309bae47801cf734afe,ISIC_0010418,20,head/neck,benign,10,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6309bae47801cf734b01,ISIC_0010419,20,head/neck,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6309bae47801cf734b04,ISIC_0010420,35,lower extremity,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d630abae47801cf734b0a,ISIC_0010422,20,posterior torso,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d630bbae47801cf734b10,ISIC_0010424,70,head/neck,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d630dbae47801cf734b19,ISIC_0010427,50,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d630dbae47801cf734b1f,ISIC_0010429,40,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d630ebae47801cf734b22,ISIC_0010430,50,anterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d630ebae47801cf734b25,ISIC_0010431,45,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d630fbae47801cf734b2b,ISIC_0010433,30,head/neck,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6311bae47801cf734b37,ISIC_0010437,40,upper extremity,benign,5,lentigo NOS,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6312bae47801cf734b3a,ISIC_0010438,65,anterior torso,benign,4,,single image expert consensus,TRUE,,,,,,,,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6314bae47801cf734b46,ISIC_0010442,35,head/neck,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6316bae47801cf734b55,ISIC_0010447,30,posterior torso,benign,8,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6316bae47801cf734b58,ISIC_0010448,30,anterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6317bae47801cf734b5b,ISIC_0010449,30,anterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6318bae47801cf734b5e,ISIC_0010450,40,head/neck,benign,5,lentigo NOS,single image expert consensus,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6318bae47801cf734b61,ISIC_0010451,40,upper extremity,benign,4,lentigo NOS,single image expert consensus,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6318bae47801cf734b64,ISIC_0010452,10,head/neck,benign,9,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d631cbae47801cf734b79,ISIC_0010459,35,upper extremity,benign,7,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d631dbae47801cf734b7f,ISIC_0010461,30,head/neck,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d631dbae47801cf734b82,ISIC_0010462,60,posterior torso,benign,2.5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d631ebae47801cf734b85,ISIC_0010463,30,anterior torso,benign,9,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d631fbae47801cf734b8b,ISIC_0010465,35,lower extremity,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6324bae47801cf734ba3,ISIC_0010473,30,head/neck,benign,9,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6324bae47801cf734ba9,ISIC_0010475,45,anterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6326bae47801cf734bb5,ISIC_0010479,60,upper extremity,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6326bae47801cf734bb8,ISIC_0010480,65,lower extremity,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6327bae47801cf734bc1,ISIC_0010483,45,posterior torso,benign,2,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d632abae47801cf734bd0,ISIC_0010488,25,posterior torso,benign,6,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d632bbae47801cf734bd6,ISIC_0010490,75,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d632cbae47801cf734bdf,ISIC_0010493,50,head/neck,benign,9,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d632dbae47801cf734be2,ISIC_0010494,60,posterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d632fbae47801cf734bee,ISIC_0010498,10,head/neck,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6330bae47801cf734bf4,ISIC_0010500,40,anterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6330bae47801cf734bf7,ISIC_0010501,40,anterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6331bae47801cf734bfa,ISIC_0010502,40,anterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6333bae47801cf734c06,ISIC_0010506,30,anterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6334bae47801cf734c0f,ISIC_0010509,15,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6336bae47801cf734c1b,ISIC_0010513,75,lower extremity,benign,2,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6338bae47801cf734c21,ISIC_0010515,65,lower extremity,benign,3,basal cell carcinoma,histopathology,FALSE,,,,,,,FALSE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d633abae47801cf734c2d,ISIC_0010519,30,lower extremity,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d633abae47801cf734c30,ISIC_0010520,30,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d633bbae47801cf734c33,ISIC_0010521,45,lower extremity,benign,6,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d633bbae47801cf734c36,ISIC_0010522,60,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d633bbae47801cf734c39,ISIC_0010523,75,anterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d633cbae47801cf734c3c,ISIC_0010524,70,posterior torso,benign,3,lentigo NOS,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d633cbae47801cf734c3f,ISIC_0010525,50,lower extremity,benign,2.5,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6340bae47801cf734c51,ISIC_0010531,20,posterior torso,benign,7,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6342bae47801cf734c5d,ISIC_0010535,50,upper extremity,benign,8,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6344bae47801cf734c69,ISIC_0010539,55,anterior torso,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6344bae47801cf734c6c,ISIC_0010540,55,anterior torso,benign,8,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6345bae47801cf734c6f,ISIC_0010541,45,head/neck,benign,15,solar lentigo,histopathology,FALSE,,,,,,,FALSE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6348bae47801cf734c81,ISIC_0010547,50,upper extremity,benign,7,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d634abae47801cf734c87,ISIC_0010549,65,upper extremity,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d634bbae47801cf734c90,ISIC_0010552,20,posterior torso,benign,13,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d634bbae47801cf734c93,ISIC_0010553,20,anterior torso,benign,7,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d634dbae47801cf734c9c,ISIC_0010556,85,posterior torso,benign,4,lentigo NOS,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d634dbae47801cf734c9f,ISIC_0010557,20,anterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d634ebae47801cf734ca2,ISIC_0010558,30,lower extremity,benign,8,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6350bae47801cf734cae,ISIC_0010562,70,head/neck,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6353bae47801cf734cba,ISIC_0010566,65,lower extremity,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6353bae47801cf734cbd,ISIC_0010567,65,lower extremity,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6355bae47801cf734cc9,ISIC_0010571,30,upper extremity,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6355bae47801cf734ccc,ISIC_0010572,30,posterior torso,benign,8,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6356bae47801cf734ccf,ISIC_0010573,30,posterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6356bae47801cf734cd2,ISIC_0010574,30,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6356bae47801cf734cd5,ISIC_0010575,15,head/neck,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d635abae47801cf734ce7,ISIC_0010581,25,anterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6360bae47801cf734d0b,ISIC_0010593,70,posterior torso,benign,2,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6361bae47801cf734d11,ISIC_0010595,50,lower extremity,benign,4.5,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6363bae47801cf734d1a,ISIC_0010598,35,lower extremity,benign,4,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6363bae47801cf734d1d,ISIC_0010599,60,upper extremity,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6367bae47801cf734d35,ISIC_0010607,55,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d636abae47801cf734d4a,ISIC_0010614,50,posterior torso,benign,6,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d636bbae47801cf734d4d,ISIC_0010615,50,lower extremity,benign,4.5,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d636cbae47801cf734d56,ISIC_0010618,40,anterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d636dbae47801cf734d5c,ISIC_0010620,35,posterior torso,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d636ebae47801cf734d5f,ISIC_0010621,35,posterior torso,benign,3,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d636ebae47801cf734d62,ISIC_0010622,35,anterior torso,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d636fbae47801cf734d68,ISIC_0010624,50,posterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6370bae47801cf734d71,ISIC_0010627,60,head/neck,benign,4,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6371bae47801cf734d74,ISIC_0010628,30,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6373bae47801cf734d80,ISIC_0010632,35,anterior torso,benign,8,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6373bae47801cf734d83,ISIC_0010633,55,posterior torso,benign,3,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6373bae47801cf734d86,ISIC_0010634,60,posterior torso,benign,4,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6374bae47801cf734d89,ISIC_0010635,55,posterior torso,benign,7,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6374bae47801cf734d8c,ISIC_0010636,25,anterior torso,benign,4.5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6375bae47801cf734d8f,ISIC_0010637,60,posterior torso,benign,5,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6376bae47801cf734d92,ISIC_0010638,75,anterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6376bae47801cf734d95,ISIC_0010639,50,posterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6377bae47801cf734d9b,ISIC_0010641,55,posterior torso,benign,2.5,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6377bae47801cf734d9e,ISIC_0010642,60,lower extremity,benign,6,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6379bae47801cf734dad,ISIC_0010647,35,upper extremity,benign,1.5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d637bbae47801cf734db9,ISIC_0010651,30,anterior torso,benign,2,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d637dbae47801cf734dc2,ISIC_0010654,45,lower extremity,benign,1,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d637dbae47801cf734dc8,ISIC_0010656,45,palms/soles,benign,1.5,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d637ebae47801cf734dcb,ISIC_0010657,20,lower extremity,benign,4.5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d637fbae47801cf734dce,ISIC_0010658,35,lower extremity,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d637fbae47801cf734dd1,ISIC_0010659,70,upper extremity,benign,2,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d637fbae47801cf734dd4,ISIC_0010660,35,lower extremity,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6383bae47801cf734de9,ISIC_0010667,35,posterior torso,benign,6,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6383bae47801cf734dec,ISIC_0010668,30,posterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6385bae47801cf734df8,ISIC_0010672,15,head/neck,benign,2,lentigo NOS,single image expert consensus,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6386bae47801cf734dfb,ISIC_0010673,40,head/neck,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6387bae47801cf734e01,ISIC_0010675,50,posterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6389bae47801cf734e07,ISIC_0010677,10,posterior torso,benign,7,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6389bae47801cf734e0a,ISIC_0010678,45,upper extremity,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d638bbae47801cf734e13,ISIC_0010681,45,lower extremity,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d638bbae47801cf734e16,ISIC_0010682,30,anterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d638cbae47801cf734e19,ISIC_0010683,40,upper extremity,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d638cbae47801cf734e1c,ISIC_0010684,15,anterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d638ebae47801cf734e25,ISIC_0010687,45,upper extremity,benign,8,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d638ebae47801cf734e28,ISIC_0010688,80,posterior torso,benign,2,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6391bae47801cf734e37,ISIC_0010693,50,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6391bae47801cf734e3a,ISIC_0010694,50,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6392bae47801cf734e3d,ISIC_0010695,35,upper extremity,benign,4,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6393bae47801cf734e43,ISIC_0010697,70,posterior torso,benign,5,lentigo NOS,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6397bae47801cf734e58,ISIC_0010704,40,lower extremity,benign,3.5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6397bae47801cf734e5b,ISIC_0010705,60,anterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6399bae47801cf734e64,ISIC_0010708,25,anterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63afbae47801cf734ee8,ISIC_0010752,70,anterior torso,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d63b3bae47801cf734f03,ISIC_0010761,50,posterior torso,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d63b8bae47801cf734f21,ISIC_0010771,30,posterior torso,benign,8,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63b9bae47801cf734f27,ISIC_0010773,55,anterior torso,benign,5,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63babae47801cf734f2a,ISIC_0010774,30,upper extremity,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63babae47801cf734f2d,ISIC_0010775,75,posterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d63bdbae47801cf734f3f,ISIC_0010781,45,posterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63c0bae47801cf734f4e,ISIC_0010786,45,lower extremity,benign,2,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63c3bae47801cf734f63,ISIC_0010793,45,posterior torso,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63cdbae47801cf734f99,ISIC_0010811,45,posterior torso,benign,3,lentigo NOS,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63cfbae47801cf734fa2,ISIC_0010814,45,anterior torso,benign,3,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d63d2bae47801cf734fb7,ISIC_0010821,60,lower extremity,benign,2.4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63d5bae47801cf734fc9,ISIC_0010827,50,anterior torso,benign,8,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d63d6bae47801cf734fd2,ISIC_0010830,30,upper extremity,benign,8,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63d7bae47801cf734fd5,ISIC_0010831,25,posterior torso,benign,5,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63d8bae47801cf734fdb,ISIC_0010833,15,posterior torso,benign,3,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63dcbae47801cf734ff0,ISIC_0010840,15,anterior torso,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63debae47801cf734ffc,ISIC_0010844,60,head/neck,benign,5.5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d63e0bae47801cf735008,ISIC_0010848,20,anterior torso,benign,3,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d63e2bae47801cf735017,ISIC_0010853,35,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d63e8bae47801cf735038,ISIC_0010864,30,anterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63eabae47801cf735041,ISIC_0010867,25,anterior torso,benign,5.5,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d63ecbae47801cf735053,ISIC_0010873,35,posterior torso,benign,3,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63edbae47801cf735056,ISIC_0010874,35,upper extremity,benign,3,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63edbae47801cf735059,ISIC_0010875,20,anterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63f0bae47801cf73506b,ISIC_0010881,30,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d63f2bae47801cf735074,ISIC_0010884,35,posterior torso,benign,5,lentigo NOS,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d63f3bae47801cf73507a,ISIC_0010886,80,posterior torso,benign,7,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d63f8bae47801cf735098,ISIC_0010896,35,anterior torso,benign,4,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d63fcbae47801cf7350b0,ISIC_0010904,30,posterior torso,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d63fcbae47801cf7350b3,ISIC_0010905,35,anterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d63ffbae47801cf7350c2,ISIC_0010910,40,upper extremity,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d63ffbae47801cf7350c5,ISIC_0010911,10,posterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6400bae47801cf7350cb,ISIC_0010913,60,posterior torso,benign,7,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6402bae47801cf7350d4,ISIC_0010916,70,lower extremity,benign,4,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6404bae47801cf7350e0,ISIC_0010920,85,head/neck,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6405bae47801cf7350e3,ISIC_0010921,40,anterior torso,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6405bae47801cf7350e6,ISIC_0010922,40,posterior torso,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6407bae47801cf7350f2,ISIC_0010926,10,posterior torso,benign,7,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d640abae47801cf735104,ISIC_0010932,20,head/neck,benign,3.5,lentigo NOS,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d640dbae47801cf735113,ISIC_0010937,60,anterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6410bae47801cf73512b,ISIC_0010945,80,lower extremity,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6412bae47801cf735137,ISIC_0010949,40,posterior torso,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6413bae47801cf73513a,ISIC_0010950,35,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6414bae47801cf735140,ISIC_0010952,65,upper extremity,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6414bae47801cf735143,ISIC_0010953,35,lower extremity,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6415bae47801cf735149,ISIC_0010955,65,posterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6419bae47801cf73515e,ISIC_0010962,35,posterior torso,benign,6,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d641ebae47801cf735176,ISIC_0010970,30,anterior torso,benign,5,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d641fbae47801cf73517c,ISIC_0010972,55,posterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d6423bae47801cf735197,ISIC_0010981,55,anterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6424bae47801cf73519d,ISIC_0010983,55,head/neck,benign,2,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6428bae47801cf7351b5,ISIC_0010991,75,head/neck,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d642abae47801cf7351be,ISIC_0010994,50,lower extremity,benign,6,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d642bbae47801cf7351c4,ISIC_0010996,50,posterior torso,benign,3,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d642bbae47801cf7351c7,ISIC_0010997,65,upper extremity,benign,2,solar lentigo,histopathology,FALSE,,,,,,,FALSE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d642ebae47801cf7351d6,ISIC_0011002,40,posterior torso,benign,15,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6432bae47801cf7351ee,ISIC_0011010,70,anterior torso,benign,2,lentigo simplex,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6436bae47801cf735206,ISIC_0011018,35,lower extremity,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6438bae47801cf735212,ISIC_0011022,75,anterior torso,benign,6,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6439bae47801cf73521b,ISIC_0011025,15,lower extremity,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6445bae47801cf73525d,ISIC_0011047,70,posterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6446bae47801cf735263,ISIC_0011049,50,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6459bae47801cf7352db,ISIC_0011089,35,posterior torso,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d645fbae47801cf7352fc,ISIC_0011100,20,posterior torso,benign,6,nevus,single image expert consensus,TRUE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6469bae47801cf735335,ISIC_0011119,65,anterior torso,benign,3,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d646bbae47801cf735341,ISIC_0011123,65,posterior torso,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d646bbae47801cf735344,ISIC_0011124,45,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,male,,,,,,dermoscopic,,1024,768
+558d646dbae47801cf73534d,ISIC_0011127,60,lower extremity,benign,2,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d647dbae47801cf7353a7,ISIC_0011157,55,lower extremity,benign,5,nevus,histopathology,TRUE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6482bae47801cf7353c8,ISIC_0011168,45,posterior torso,benign,2,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6484bae47801cf7353d1,ISIC_0011171,30,anterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6489bae47801cf7353f5,ISIC_0011183,50,lower extremity,benign,1,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d648ebae47801cf73540d,ISIC_0011191,40,anterior torso,benign,3,nevus,histopathology,TRUE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6490bae47801cf735419,ISIC_0011195,25,anterior torso,benign,4.5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d6491bae47801cf735422,ISIC_0011198,60,upper extremity,benign,7.5,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6495bae47801cf735437,ISIC_0011205,50,lower extremity,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d649dbae47801cf735464,ISIC_0011220,25,anterior torso,benign,1,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d64a2bae47801cf735482,ISIC_0011230,40,lower extremity,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d64a4bae47801cf735491,ISIC_0011235,50,upper extremity,benign,6,nevus,histopathology,,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d64a5bae47801cf735494,ISIC_0011236,35,upper extremity,benign,4,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d64a8bae47801cf7354ac,ISIC_0011244,50,lower extremity,benign,4,lentigo NOS,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d64adbae47801cf7354c7,ISIC_0011253,40,upper extremity,benign,5,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d64b7bae47801cf735506,ISIC_0011274,55,lower extremity,benign,2,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d64b9bae47801cf735515,ISIC_0011279,55,posterior torso,benign,3,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d64c1bae47801cf73553f,ISIC_0011293,60,posterior torso,benign,4,lentigo NOS,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d64c5bae47801cf73555d,ISIC_0011303,25,anterior torso,benign,4,nevus,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d64d3bae47801cf7355ae,ISIC_0011330,25,lower extremity,benign,3.5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d64d8bae47801cf7355c9,ISIC_0011339,45,anterior torso,benign,3.5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,female,,,,,,dermoscopic,,1024,768
+558d64dfbae47801cf7355f6,ISIC_0011354,50,upper extremity,benign,1,lentigo simplex,single image expert consensus,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d64ecbae47801cf73563e,ISIC_0011378,70,posterior torso,benign,5.5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d64efbae47801cf73564a,ISIC_0011382,85,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+5592ac5e9fc3c13155a57a8f,ISIC_0011411,35,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6648,4419
+5592acf99fc3c13155a57b98,ISIC_0011464,30,lower extremity,benign,,,histopathology,,,,,,,,,,,,male,,,,contact non-polarized,,dermoscopic,,6621,4402
+5592ad019fc3c13155a57ba7,ISIC_0011467,55,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6642,4420
+5592ad269fc3c13155a57be3,ISIC_0011479,20,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6641,4422
+5592cc7b9fc3c1315514563d,ISIC_0011539,85,anterior torso,benign,,,single image expert consensus,,,,,,,,,,,,,,,,contact non-polarized,,dermoscopic,,6648,4419
+5592cc7e9fc3c13155145642,ISIC_0011540,85,anterior torso,benign,,,single image expert consensus,,,,,,,,,,,,,,,,contact non-polarized,,dermoscopic,,6648,4419
+5592cc8d9fc3c1315514565b,ISIC_0011545,15,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6668,4419
+5592cca29fc3c13155145683,ISIC_0011553,40,lateral torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6708,4459
+5592ccb39fc3c1315514569c,ISIC_0011558,55,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6668,4439
+5592ccbd9fc3c131551456b0,ISIC_0011562,25,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6640,4411
+5592ccc79fc3c131551456bf,ISIC_0011565,45,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6641,4420
+5592cccc9fc3c131551456c9,ISIC_0011567,35,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6668,4439
+5592ccfd9fc3c1315514571e,ISIC_0011584,70,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6668,4419
+5592cfca9fc3c13155145881,ISIC_0011592,70,lower extremity,benign,,angioma,histopathology,,,,,,,,FALSE,,,,female,,,,contact non-polarized,,dermoscopic,,6688,4459
+5592cfca9fc3c13155145896,ISIC_0011599,30,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6668,4439
+5592cfca9fc3c13155145899,ISIC_0011600,55,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6648,4399
+5592cfca9fc3c131551458ab,ISIC_0011606,50,upper extremity,benign,,,histopathology,,,,,,,,,,,,female,,,,contact non-polarized,,dermoscopic,,6688,4439
+5592cfca9fc3c131551458bd,ISIC_0011612,85,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6688,4459
+5592cfca9fc3c131551458f0,ISIC_0011629,50,lower extremity,benign,,angioma,histopathology,,,,,,,,FALSE,,,,female,,,,contact non-polarized,,dermoscopic,,6688,4459
+5592cfca9fc3c131551458f3,ISIC_0011630,45,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6668,4459
+5592fe5a9fc3c13155145dcc,ISIC_0011732,30,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6628,4419
+5592fe9c9fc3c13155145e3f,ISIC_0011755,50,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6661,4420
+5592fedf9fc3c13155145eb7,ISIC_0011779,35,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6642,4420
+5592feef9fc3c13155145ed0,ISIC_0011784,60,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6661,4381
+5592ff0b9fc3c13155145efd,ISIC_0011793,85,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6668,4419
+5593f4019fc3c1315514602f,ISIC_0011824,50,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6602,4402
+5593f4149fc3c1315514604d,ISIC_0011830,45,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6668,4439
+5593f44a9fc3c131551460ac,ISIC_0011849,70,lateral torso,benign,,,histopathology,,,,,,,,,,,,female,,,,contact non-polarized,,dermoscopic,,6668,4479
+559431739fc3c1315514627b,ISIC_0011880,50,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6628,4439
+559431a29fc3c131551462cb,ISIC_0011896,50,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6641,4461
+5594321a9fc3c131551463a2,ISIC_0011939,60,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6628,4419
+559432479fc3c131551463f2,ISIC_0011955,85,posterior torso,benign,,,single image expert consensus,,,,,,,,,,,,,,,,contact non-polarized,,dermoscopic,,6648,4439
+5594324a9fc3c131551463f7,ISIC_0011956,85,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6708,4479
+559432599fc3c1315514640b,ISIC_0011960,15,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6688,4419
+5594326a9fc3c1315514642e,ISIC_0011967,40,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6688,4419
+559432729fc3c1315514643d,ISIC_0011970,30,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6688,4439
+559435c99fc3c13155146480,ISIC_0011982,85,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6648,4459
+559435e99fc3c131551464bc,ISIC_0011994,85,posterior torso,benign,,,single image expert consensus,,,,,,,,,,,,,,,,contact non-polarized,,dermoscopic,,6668,4439
+559435fe9fc3c131551464df,ISIC_0012001,65,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6681,4440
+559436389fc3c13155146548,ISIC_0012022,30,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6661,4420
+559437889fc3c131551465e0,ISIC_0012051,35,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6661,4442
+559437c79fc3c13155146649,ISIC_0012072,45,lower extremity,benign,,lentigo simplex,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6701,4442
+559437f09fc3c1315514668a,ISIC_0012085,25,lateral torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6682,4420
+581cd64e9fc3c13dcd0e0f31,ISIC_0012811,60,anterior torso,benign,,seborrheic keratosis,histopathology,,,,,,,,FALSE,,,,male,,,,contact non-polarized,,dermoscopic,,1017,717
+581cd6cb9fc3c13dcd0e179b,ISIC_0013037,40,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,nevus NOS,,,female,,,,contact non-polarized,,dermoscopic,,3872,2592
+581cd71c9fc3c13dcd0e1d48,ISIC_0013190,45,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,3872,2592
+581cd72d9fc3c13dcd0e1ea0,ISIC_0013226,35,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,nevus NOS,,,female,,,,contact non-polarized,,dermoscopic,,3872,2592
+581cd8c29fc3c13dcd0e3457,ISIC_0013801,45,lateral torso,benign,,nevus,histopathology,,,,,,,,TRUE,nevus NOS,,,female,,,,contact non-polarized,,dermoscopic,,3008,2000
+582b8d4e9fc3c1566bbcb0dd,ISIC_0014661,45,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6662,4440
+582b8d569fc3c1566bbcb105,ISIC_0014665,45,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6688,4419
+582b8d5a9fc3c1566bbcb117,ISIC_0014667,60,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6688,4459
+582b8d6d9fc3c1566bbcb15f,ISIC_0014675,45,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6708,4439
+582b8d7e9fc3c1566bbcb1b0,ISIC_0014684,20,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6628,4419
+582b8d8e9fc3c1566bbcb1f8,ISIC_0014692,40,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6648,4419
+582b8d929fc3c1566bbcb20a,ISIC_0014694,20,lateral torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6648,4439
+582b8d999fc3c1566bbcb22e,ISIC_0014698,,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6642,4401
+582b8da09fc3c1566bbcb252,ISIC_0014702,50,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6641,4400
+582b8dab9fc3c1566bbcb27f,ISIC_0014707,,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6641,4400
+582b8dad9fc3c1566bbcb288,ISIC_0014708,,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,,,,,contact non-polarized,,dermoscopic,,6622,4421
+582b8db29fc3c1566bbcb2a3,ISIC_0014711,60,posterior torso,benign,,seborrheic keratosis,histopathology,,,,,,,,FALSE,,,,male,,,,contact non-polarized,,dermoscopic,,6641,4420
+582b8db69fc3c1566bbcb2b5,ISIC_0014713,30,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6602,4401
+582b8dba9fc3c1566bbcb2c7,ISIC_0014715,35,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6622,4400
+582b8dc39fc3c1566bbcb2f9,ISIC_0014720,30,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,contact non-polarized,,dermoscopic,,6622,4420
+582b8dd39fc3c1566bbcb354,ISIC_0014728,,lateral torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,,,,,contact non-polarized,,dermoscopic,,6627,4399
+582b8dd79fc3c1566bbcb366,ISIC_0014730,55,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6668,4439
+582b8dd99fc3c1566bbcb36f,ISIC_0014731,55,head/neck,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6668,4439
+582b8df59fc3c1566bbcb3ed,ISIC_0014745,70,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,contact non-polarized,,dermoscopic,,6688,4439
+5aaf124a1165976913627f17,ISIC_0024317,35,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf124a1165976913627f2d,ISIC_0024319,55,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf124b1165976913627f54,ISIC_0024322,65,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf124b1165976913627f80,ISIC_0024326,75,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf124c1165976913627fee,ISIC_0024334,45,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf124c1165976913627ffb,ISIC_0024335,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf124c1165976913628028,ISIC_0024339,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf124d1165976913628040,ISIC_0024341,25,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf124d116597691362808c,ISIC_0024347,25,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf124d11659769136280af,ISIC_0024350,35,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf124e11659769136280c8,ISIC_0024352,30,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf124e11659769136280d5,ISIC_0024353,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf124e11659769136280f5,ISIC_0024355,35,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf124f1165976913628150,ISIC_0024363,40,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf124f116597691362815b,ISIC_0024364,45,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf125211659769136282d4,ISIC_0024393,80,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1252116597691362830f,ISIC_0024398,65,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12531165976913628344,ISIC_0024401,25,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12531165976913628366,ISIC_0024404,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1253116597691362838a,ISIC_0024407,40,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf125411659769136283d2,ISIC_0024413,50,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12551165976913628458,ISIC_0024423,40,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12551165976913628493,ISIC_0024428,35,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf125611659769136284d3,ISIC_0024433,40,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf125611659769136284ea,ISIC_0024434,40,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1256116597691362850d,ISIC_0024437,55,anterior torso,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12571165976913628547,ISIC_0024442,55,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1257116597691362855d,ISIC_0024444,55,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1259116597691362862c,ISIC_0024460,50,head/neck,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12591165976913628669,ISIC_0024465,45,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12591165976913628689,ISIC_0024467,40,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf125b116597691362876d,ISIC_0024485,60,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf125b116597691362877b,ISIC_0024486,50,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf125b116597691362878a,ISIC_0024487,40,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf125c11659769136287c7,ISIC_0024492,60,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf125c1165976913628802,ISIC_0024497,55,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf125c1165976913628819,ISIC_0024499,55,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf125c1165976913628826,ISIC_0024500,45,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf125d1165976913628837,ISIC_0024501,5,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf125d116597691362884b,ISIC_0024502,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf125d116597691362887c,ISIC_0024506,55,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf125d1165976913628887,ISIC_0024507,30,anterior torso,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf125e11659769136288cc,ISIC_0024513,75,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf125f116597691362892c,ISIC_0024520,60,,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf125f1165976913628963,ISIC_0024524,5,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf125f1165976913628979,ISIC_0024526,50,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf125f116597691362899e,ISIC_0024529,25,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf126011659769136289a9,ISIC_0024530,35,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf126011659769136289cb,ISIC_0024533,45,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12611165976913628a2e,ISIC_0024540,25,,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12611165976913628a39,ISIC_0024541,65,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12611165976913628a46,ISIC_0024542,40,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12611165976913628a8d,ISIC_0024548,60,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12621165976913628aba,ISIC_0024551,50,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12631165976913628b4f,ISIC_0024563,50,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12631165976913628b8c,ISIC_0024568,40,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12641165976913628c0f,ISIC_0024578,35,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12641165976913628c25,ISIC_0024580,35,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12661165976913628cbc,ISIC_0024591,35,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12661165976913628cf5,ISIC_0024596,45,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12671165976913628d70,ISIC_0024605,45,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12671165976913628d88,ISIC_0024607,50,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12671165976913628dab,ISIC_0024610,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12681165976913628dcc,ISIC_0024613,60,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12681165976913628de6,ISIC_0024615,35,head/neck,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12691165976913628e3e,ISIC_0024621,70,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12691165976913628e6e,ISIC_0024625,40,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf126a1165976913628eb4,ISIC_0024631,50,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf126a1165976913628ecd,ISIC_0024633,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf126a1165976913628f17,ISIC_0024638,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf126a1165976913628f23,ISIC_0024639,60,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf126b1165976913628f3c,ISIC_0024641,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf126c1165976913628fd6,ISIC_0024653,60,,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf126c116597691362902b,ISIC_0024660,55,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf126d116597691362904e,ISIC_0024663,55,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf126d1165976913629084,ISIC_0024667,50,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf126d1165976913629092,ISIC_0024668,25,,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf126e11659769136290be,ISIC_0024671,35,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf126e1165976913629129,ISIC_0024680,75,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf126f11659769136291a3,ISIC_0024689,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1270116597691362920d,ISIC_0024698,70,head/neck,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1270116597691362921b,ISIC_0024699,25,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12711165976913629262,ISIC_0024704,80,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1273116597691362936d,ISIC_0024725,0,lower extremity,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1273116597691362938f,ISIC_0024728,30,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf127311659769136293a8,ISIC_0024730,30,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf127411659769136293e1,ISIC_0024734,25,lower extremity,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf127411659769136293ec,ISIC_0024735,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf127411659769136293f7,ISIC_0024736,40,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12741165976913629408,ISIC_0024737,50,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12741165976913629415,ISIC_0024738,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12751165976913629447,ISIC_0024742,45,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12751165976913629468,ISIC_0024745,0,lower extremity,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf127611659769136294c5,ISIC_0024752,0,lower extremity,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf127611659769136294d5,ISIC_0024753,40,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12761165976913629507,ISIC_0024757,10,,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1276116597691362951f,ISIC_0024759,50,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12771165976913629566,ISIC_0024765,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12771165976913629574,ISIC_0024766,45,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf127811659769136295ee,ISIC_0024775,50,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1278116597691362960f,ISIC_0024778,40,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12781165976913629634,ISIC_0024781,35,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1279116597691362964c,ISIC_0024783,35,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12791165976913629666,ISIC_0024785,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf127911659769136296ae,ISIC_0024790,75,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf127911659769136296b9,ISIC_0024791,50,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf127a11659769136296d1,ISIC_0024793,65,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf127a11659769136296f3,ISIC_0024796,60,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf127b1165976913629750,ISIC_0024803,45,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf127c11659769136297e6,ISIC_0024815,25,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf127c1165976913629828,ISIC_0024820,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf127d1165976913629849,ISIC_0024822,65,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf127d1165976913629860,ISIC_0024824,50,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf127d1165976913629876,ISIC_0024826,40,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf127d11659769136298a5,ISIC_0024830,15,anterior torso,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf127d11659769136298b0,ISIC_0024831,50,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf127e1165976913629902,ISIC_0024837,50,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf127f1165976913629946,ISIC_0024842,45,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf127f1165976913629980,ISIC_0024847,45,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12801165976913629a4c,ISIC_0024863,55,head/neck,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12811165976913629a6e,ISIC_0024866,40,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12811165976913629a96,ISIC_0024869,45,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12821165976913629af5,ISIC_0024876,40,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12821165976913629b55,ISIC_0024884,55,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12831165976913629b7a,ISIC_0024887,35,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12831165976913629b88,ISIC_0024888,45,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12831165976913629bc4,ISIC_0024892,55,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12841165976913629bda,ISIC_0024894,55,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12841165976913629be5,ISIC_0024895,50,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12841165976913629bf2,ISIC_0024896,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12841165976913629c2e,ISIC_0024901,20,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12841165976913629c48,ISIC_0024903,45,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12861165976913629cf0,ISIC_0024916,45,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12861165976913629d12,ISIC_0024919,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12861165976913629d1e,ISIC_0024920,45,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12861165976913629d38,ISIC_0024922,60,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12861165976913629d5c,ISIC_0024924,55,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12871165976913629d8c,ISIC_0024928,75,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12871165976913629dc6,ISIC_0024933,45,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12881165976913629e2e,ISIC_0024941,40,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12881165976913629e3b,ISIC_0024942,65,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf128a1165976913629f6d,ISIC_0024966,45,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf128b1165976913629fd5,ISIC_0024974,40,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf128c1165976913629ffc,ISIC_0024977,60,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf128c116597691362a025,ISIC_0024980,55,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf128c116597691362a046,ISIC_0024983,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf128c116597691362a05f,ISIC_0024985,75,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf128c116597691362a06b,ISIC_0024986,35,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf128d116597691362a0cc,ISIC_0024993,55,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf128d116597691362a0f0,ISIC_0024996,15,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf128f116597691362a15e,ISIC_0025004,35,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf128f116597691362a17e,ISIC_0025006,40,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1290116597691362a18a,ISIC_0025007,50,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1290116597691362a1bd,ISIC_0025011,55,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1291116597691362a1e0,ISIC_0025013,45,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1291116597691362a1fd,ISIC_0025015,40,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1291116597691362a213,ISIC_0025017,65,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1292116597691362a280,ISIC_0025026,50,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1292116597691362a29e,ISIC_0025028,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1293116597691362a2ef,ISIC_0025034,50,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1293116597691362a327,ISIC_0025039,75,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1293116597691362a34b,ISIC_0025042,45,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1294116597691362a362,ISIC_0025044,40,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1294116597691362a373,ISIC_0025045,65,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1294116597691362a398,ISIC_0025047,20,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1295116597691362a3f4,ISIC_0025055,45,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1295116597691362a40a,ISIC_0025057,45,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1295116597691362a426,ISIC_0025059,40,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1295116597691362a445,ISIC_0025061,45,lower extremity,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1296116597691362a453,ISIC_0025062,55,posterior torso,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1297116597691362a508,ISIC_0025077,45,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1298116597691362a59b,ISIC_0025088,30,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1298116597691362a5bc,ISIC_0025091,40,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1299116597691362a5da,ISIC_0025093,40,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf1299116597691362a5eb,ISIC_0025094,50,head/neck,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf1299116597691362a607,ISIC_0025096,60,head/neck,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf129a116597691362a63d,ISIC_0025100,25,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf129a116597691362a669,ISIC_0025104,50,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf129a116597691362a682,ISIC_0025106,65,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf129a116597691362a68e,ISIC_0025107,55,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf129a116597691362a699,ISIC_0025108,40,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf129b116597691362a6f2,ISIC_0025114,35,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf129b116597691362a6fd,ISIC_0025115,30,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf129c116597691362a74d,ISIC_0025122,30,,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf129c116597691362a758,ISIC_0025123,20,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf129c116597691362a77f,ISIC_0025126,45,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf129d116597691362a7ef,ISIC_0025134,55,head/neck,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf129d116597691362a810,ISIC_0025137,50,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf129d116597691362a81b,ISIC_0025138,40,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf129d116597691362a829,ISIC_0025139,35,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf129e116597691362a840,ISIC_0025141,60,anterior torso,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf129e116597691362a888,ISIC_0025146,50,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf129e116597691362a898,ISIC_0025147,40,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf129f116597691362a8d3,ISIC_0025152,70,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf129f116597691362a915,ISIC_0025158,45,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12a0116597691362a941,ISIC_0025161,20,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12a0116597691362a996,ISIC_0025167,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a1116597691362a9cd,ISIC_0025172,25,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a1116597691362a9e5,ISIC_0025174,55,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a1116597691362a9f2,ISIC_0025175,50,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a1116597691362a9fd,ISIC_0025176,60,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12a2116597691362aa47,ISIC_0025181,80,,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12a2116597691362aa6c,ISIC_0025184,70,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a2116597691362aa85,ISIC_0025186,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a3116597691362aab1,ISIC_0025190,55,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a3116597691362aad6,ISIC_0025193,5,upper extremity,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12a3116597691362ab20,ISIC_0025198,35,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a4116597691362ab3a,ISIC_0025200,55,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12a4116597691362ab48,ISIC_0025201,45,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a4116597691362ab5e,ISIC_0025203,55,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12a4116597691362ab7f,ISIC_0025206,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a4116597691362ab8a,ISIC_0025207,50,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a5116597691362abdf,ISIC_0025213,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a6116597691362ac37,ISIC_0025220,55,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a7116597691362ace2,ISIC_0025233,50,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12a8116597691362ad26,ISIC_0025239,30,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a8116597691362ad4b,ISIC_0025242,60,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a8116597691362ad86,ISIC_0025246,5,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12a9116597691362adde,ISIC_0025253,0,anterior torso,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12a9116597691362adf4,ISIC_0025255,50,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a9116597691362ae0c,ISIC_0025257,70,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12a9116597691362ae19,ISIC_0025258,55,head/neck,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12aa116597691362ae24,ISIC_0025259,45,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12aa116597691362ae95,ISIC_0025267,35,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12ab116597691362aeb7,ISIC_0025270,60,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12ab116597691362aee6,ISIC_0025274,45,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12ab116597691362af1a,ISIC_0025278,30,posterior torso,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12ac116597691362af2d,ISIC_0025279,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12ac116597691362af4a,ISIC_0025281,55,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12ac116597691362af90,ISIC_0025287,50,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12ad116597691362afb2,ISIC_0025290,60,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12ad116597691362afbf,ISIC_0025291,50,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12ad116597691362afe6,ISIC_0025294,35,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12ad116597691362b002,ISIC_0025296,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12ae116597691362b03c,ISIC_0025300,35,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12ae116597691362b097,ISIC_0025308,40,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12ae116597691362b0a5,ISIC_0025309,30,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12af116597691362b0be,ISIC_0025311,45,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12af116597691362b11f,ISIC_0025318,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12b0116597691362b158,ISIC_0025323,60,anterior torso,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12b1116597691362b1d3,ISIC_0025332,55,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12b1116597691362b1ee,ISIC_0025334,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12b1116597691362b1fa,ISIC_0025335,60,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12b1116597691362b205,ISIC_0025336,45,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12b1116597691362b21b,ISIC_0025338,60,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12b2116597691362b231,ISIC_0025340,70,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12b2116597691362b257,ISIC_0025343,35,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12b2116597691362b265,ISIC_0025344,40,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12b3116597691362b2e9,ISIC_0025354,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12b3116597691362b2ff,ISIC_0025356,35,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12b3116597691362b30d,ISIC_0025357,35,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12b4116597691362b33a,ISIC_0025361,35,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12b5116597691362b3b7,ISIC_0025370,15,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12b5116597691362b3ee,ISIC_0025375,35,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12b7116597691362b4d6,ISIC_0025393,25,head/neck,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12b7116597691362b4ec,ISIC_0025395,55,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12b7116597691362b4f8,ISIC_0025396,50,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12b8116597691362b568,ISIC_0025404,80,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12b8116597691362b574,ISIC_0025405,50,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12b9116597691362b601,ISIC_0025416,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12ba116597691362b658,ISIC_0025423,55,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12ba116597691362b664,ISIC_0025424,40,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12bb116597691362b6f7,ISIC_0025435,45,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12bb116597691362b70d,ISIC_0025437,40,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12bc116597691362b76f,ISIC_0025445,55,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12bc116597691362b78c,ISIC_0025447,30,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12bd116597691362b7ff,ISIC_0025456,30,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12bd116597691362b823,ISIC_0025459,50,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12be116597691362b845,ISIC_0025462,45,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12bf116597691362b8ee,ISIC_0025475,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12bf116597691362b92d,ISIC_0025480,55,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c0116597691362b94a,ISIC_0025482,40,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12c0116597691362b97e,ISIC_0025486,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c1116597691362b9f7,ISIC_0025496,45,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c1116597691362ba02,ISIC_0025497,50,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c2116597691362ba4c,ISIC_0025502,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12c2116597691362ba94,ISIC_0025508,40,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c3116597691362bade,ISIC_0025514,75,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c4116597691362bb55,ISIC_0025523,30,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c4116597691362bbc2,ISIC_0025532,45,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c4116597691362bbce,ISIC_0025533,35,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12c5116597691362bbdc,ISIC_0025534,60,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12c5116597691362bc0a,ISIC_0025537,50,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c5116597691362bc2e,ISIC_0025540,35,,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c5116597691362bc39,ISIC_0025541,25,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c6116597691362bc68,ISIC_0025545,30,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c6116597691362bc9c,ISIC_0025549,55,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c6116597691362bcba,ISIC_0025551,45,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c6116597691362bcc7,ISIC_0025552,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12c7116597691362bcec,ISIC_0025555,35,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c7116597691362bcf8,ISIC_0025556,50,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12c8116597691362bd9b,ISIC_0025569,40,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12c9116597691362be1d,ISIC_0025579,45,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12ca116597691362be6a,ISIC_0025585,55,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12ca116597691362be85,ISIC_0025587,20,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12ca116597691362bee8,ISIC_0025595,45,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12cc116597691362bf92,ISIC_0025608,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12cc116597691362bfdb,ISIC_0025614,60,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12cd116597691362c00b,ISIC_0025618,30,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12cd116597691362c01e,ISIC_0025619,20,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12cd116597691362c037,ISIC_0025621,30,head/neck,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12cd116597691362c075,ISIC_0025626,30,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12ce116597691362c09a,ISIC_0025629,45,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12ce116597691362c0b3,ISIC_0025631,60,lower extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12ce116597691362c0c2,ISIC_0025632,40,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12ce116597691362c0e8,ISIC_0025635,40,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12cf116597691362c14f,ISIC_0025643,45,anterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12d0116597691362c181,ISIC_0025647,60,anterior torso,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12d0116597691362c1bd,ISIC_0025652,15,posterior torso,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12d1116597691362c224,ISIC_0025660,45,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12d1116597691362c241,ISIC_0025662,35,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12d3116597691362c33e,ISIC_0025682,35,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12d4116597691362c399,ISIC_0025689,40,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12d4116597691362c3fe,ISIC_0025697,50,upper extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12d6116597691362c4c9,ISIC_0025713,25,upper extremity,benign,,nevus,histopathology,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12d6116597691362c4e1,ISIC_0025715,40,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12d8116597691362c59f,ISIC_0025730,30,posterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12d8116597691362c5c6,ISIC_0025733,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12d8116597691362c5ee,ISIC_0025736,50,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12d9116597691362c662,ISIC_0025745,40,lower extremity,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12d9116597691362c691,ISIC_0025749,55,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12da116597691362c6cf,ISIC_0025754,65,posterior torso,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12da116597691362c6f8,ISIC_0025757,50,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5aaf12da116597691362c715,ISIC_0025759,40,anterior torso,benign,,nevus,histopathology,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,600,450
+5aaf12da116597691362c720,ISIC_0025760,55,,benign,,nevus,serial imaging showing no change,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,600,450
+5436e3abbae478396759f0cf,ISIC_0000000,55,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1022,767
+5436e3acbae478396759f0d1,ISIC_0000001,30,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1022,767
+5436e3acbae478396759f0d5,ISIC_0000003,30,upper extremity,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,1022,767
+5436e3acbae478396759f0df,ISIC_0000008,30,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1022,767
+5436e3adbae478396759f0ef,ISIC_0000016,55,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1022,767
+5436e3adbae478396759f0f1,ISIC_0000017,50,posterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1504,1129
+5436e3adbae478396759f0f3,ISIC_0000018,30,posterior torso,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,1504,1129
+5436e3adbae478396759f0f5,ISIC_0000019,30,posterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1504,1129
+5436e3adbae478396759f0f7,ISIC_0000020,25,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1504,1129
+5436e3aebae478396759f0fd,ISIC_0000023,30,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1504,1129
+5436e3aebae478396759f105,ISIC_0000027,35,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1504,1129
+5436e3aebae478396759f107,ISIC_0000028,60,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,1504,1129
+5436e3b0bae478396759f11d,ISIC_0000039,60,posterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1504,1129
+5436e3b1bae478396759f12d,ISIC_0000047,70,lower extremity,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,1504,1129
+5436e3b1bae478396759f135,ISIC_0000051,55,upper extremity,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,1504,1129
+5436e3b2bae478396759f143,ISIC_0000058,40,posterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1504,1129
+5436e3b2bae478396759f145,ISIC_0000059,30,lower extremity,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1504,1129
+5436e3b3bae478396759f14f,ISIC_0000064,40,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1504,1129
+5436e3b3bae478396759f155,ISIC_0000067,45,posterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,962,722
+5436e3b4bae478396759f161,ISIC_0000073,20,posterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1022,767
+5436e3b4bae478396759f16f,ISIC_0000080,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2592,1944
+5436e3b5bae478396759f173,ISIC_0000082,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3b5bae478396759f177,ISIC_0000084,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3b5bae478396759f179,ISIC_0000085,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3b6bae478396759f17b,ISIC_0000086,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2592,1944
+5436e3b6bae478396759f17d,ISIC_0000087,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3b6bae478396759f17f,ISIC_0000088,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3b6bae478396759f181,ISIC_0000089,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3b7bae478396759f187,ISIC_0000092,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3b7bae478396759f189,ISIC_0000093,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3b7bae478396759f18b,ISIC_0000094,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3b8bae478396759f18f,ISIC_0000096,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3b8bae478396759f191,ISIC_0000097,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3b8bae478396759f197,ISIC_0000099,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3babae478396759f1a7,ISIC_0000107,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3babae478396759f1a9,ISIC_0000108,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3bcbae478396759f1bb,ISIC_0000117,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3bdbae478396759f1bf,ISIC_0000119,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3bebae478396759f1c9,ISIC_0000124,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3bebae478396759f1d1,ISIC_0000128,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3bebae478396759f1d3,ISIC_0000129,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3bfbae478396759f1d5,ISIC_0000130,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3c0bae478396759f1e1,ISIC_0000136,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2048,1536
+5436e3c6bae478396759f235,ISIC_0000178,65,upper extremity,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,722,540
+5436e3c6bae478396759f23b,ISIC_0000181,15,upper extremity,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1502,1051
+5436e3c6bae478396759f23d,ISIC_0000182,45,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,1502,1051
+5436e3c7bae478396759f243,ISIC_0000185,25,posterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1045,705
+5436e3c7bae478396759f245,ISIC_0000186,5,upper extremity,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,1064,702
+5436e3c8bae478396759f25d,ISIC_0000198,65,lower extremity,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,725,542
+5436e3c8bae478396759f25f,ISIC_0000199,20,upper extremity,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,718,542
+5436e3c8bae478396759f261,ISIC_0000200,50,lower extremity,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,962,670
+5436e3c8bae478396759f263,ISIC_0000201,15,lower extremity,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,1043,705
+5436e3cabae478396759f27b,ISIC_0000213,30,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,718,542
+5436e3cabae478396759f281,ISIC_0000216,30,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,949,626
+5436e3cabae478396759f285,ISIC_0000218,55,posterior torso,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,1502,1016
+5436e3cabae478396759f28b,ISIC_0000221,30,upper extremity,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,962,671
+5436e3cbbae478396759f293,ISIC_0000225,35,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,957,723
+5436e3cbbae478396759f295,ISIC_0000226,70,posterior torso,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,964,672
+5436e3cbbae478396759f297,ISIC_0000227,40,lower extremity,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,959,723
+5436e3cbbae478396759f29f,ISIC_0000231,25,posterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,962,723
+5436e3cbbae478396759f2a1,ISIC_0000232,75,upper extremity,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,960,645
+5436e3ccbae478396759f2a5,ISIC_0000234,20,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,962,676
+5436e3cdbae478396759f2c5,ISIC_0000250,35,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,1024,768
+5436e3cebae478396759f2d9,ISIC_0000260,10,posterior torso,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,1024,768
+5436e3cebae478396759f2db,ISIC_0000261,30,upper extremity,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1024,768
+5436e3cebae478396759f2df,ISIC_0000263,25,posterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1024,768
+5436e3cebae478396759f2e5,ISIC_0000266,30,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,1024,768
+5436e3cfbae478396759f2ef,ISIC_0000271,20,upper extremity,benign,,nevus,,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,1024,768
+5436e3d8bae478396759f3c1,ISIC_0000376,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2725,2082
+5436e3d9bae478396759f3c3,ISIC_0000377,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,3072,2304
+5436e3dabae478396759f3d1,ISIC_0000384,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2583,2096
+5436e3e6bae478396759f41b,ISIC_0000421,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,3072,2304
+5436e3e6bae478396759f41f,ISIC_0000423,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,3072,2304
+5436e3e7bae478396759f427,ISIC_0000427,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,3072,2304
+5436e3eebae478396759f453,ISIC_0000449,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,3072,2304
+5436e3f0bae478396759f462,ISIC_0000455,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,2283,1824
+5436e3f2bae478396759f480,ISIC_0000470,,lower extremity,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,919,802
+5436e3f3bae478396759f49a,ISIC_0000483,,lower extremity,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,919,802
+5436e3f4bae478396759f4a0,ISIC_0000486,,lower extremity,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,919,802
+5436e3f4bae478396759f4b2,ISIC_0000495,,lower extremity,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,919,802
+5436e3f5bae478396759f4be,ISIC_0000501,,anterior torso,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,919,802
+5436e3f8bae478396759f4ee,ISIC_0000525,,lower extremity,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,1007,711
+5436e3fabae478396759f508,ISIC_0000538,,,benign,,nevus,,,,,,,,,TRUE,,,,,,,,,,dermoscopic,,824,719
+54e755f4bae47850e86cdfdb,ISIC_0001104,75,posterior torso,benign,,seborrheic keratosis,histopathology,,,,,,,,FALSE,,,,male,,,,,,dermoscopic,,3072,2304
+54e75602bae47850e86ce0a8,ISIC_0001145,80,lower extremity,benign,,seborrheic keratosis,histopathology,,,,,,,,FALSE,,,,female,,,,,,dermoscopic,,3072,2304
+54e7d710bae4780ec59cb292,ISIC_0001962,15,,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,3024,2016
+54e7d784bae4780ec59cb5ee,ISIC_0002134,15,,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,3024,2016
+54e7d863bae4780ec59cbc2e,ISIC_0002453,15,,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,3024,2016
+54e7d87cbae4780ec59cbcec,ISIC_0002491,15,,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,3024,2016
+54e7dafcbae4780ec59ccb11,ISIC_0003215,15,,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,female,,,,,,dermoscopic,,3024,2016
+54e7dc8dbae4780ec59cd66a,ISIC_0003796,15,,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,3024,2016
+54e7dc91bae4780ec59cd688,ISIC_0003802,15,,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,3024,2016
+5508fe59bae47817cee4cc1f,ISIC_0006641,15,,benign,,nevus,single image expert consensus,,,,,,,,TRUE,,,,male,,,,,,dermoscopic,,3024,2016
+558d6083bae47801cf734366,ISIC_0009871,45,posterior torso,benign,5,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6085bae47801cf73436c,ISIC_0009873,40,posterior torso,benign,10,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
+558d6085bae47801cf73436f,ISIC_0009874,45,anterior torso,benign,3,nevus,histopathology,FALSE,,,,,,,TRUE,,,FALSE,male,,,,,,dermoscopic,,1024,768
+558d6086bae47801cf734372,ISIC_0009875,30,posterior torso,benign,9,nevus,histopathology,FALSE,,,,,,,TRUE,,,TRUE,female,,,,,,dermoscopic,,1024,768
