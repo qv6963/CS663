@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Malignant</folder>
+	<filename>ISIC_0024296.jpg</filename>
+	<path>D:\University\Fall 2020\Computer Vision\Skin Diagnosis Application\Filtered Dataset\Malignant\ISIC_0024296.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3008</width>
+		<height>2000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Scaly</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1296</xmin>
+			<ymin>989</ymin>
+			<xmax>1435</xmax>
+			<ymax>1128</ymax>
+		</bndbox>
+	</object>
+</annotation>

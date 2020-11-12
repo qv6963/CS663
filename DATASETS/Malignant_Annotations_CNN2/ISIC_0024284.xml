@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Malignant</folder>
+	<filename>ISIC_0024284.jpg</filename>
+	<path>D:\University\Fall 2020\Computer Vision\Skin Diagnosis Application\Filtered Dataset\Malignant\ISIC_0024284.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>713</width>
+		<height>547</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Color changes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>236</xmin>
+			<ymin>269</ymin>
+			<xmax>292</xmax>
+			<ymax>303</ymax>
+		</bndbox>
+	</object>
+</annotation>

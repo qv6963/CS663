@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Malignant</folder>
+	<filename>ISIC_0024244.jpg</filename>
+	<path>D:\University\Fall 2020\Computer Vision\Skin Diagnosis Application\Filtered Dataset\Malignant\ISIC_0024244.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3008</width>
+		<height>2000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bleeding</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1100</xmin>
+			<ymin>1000</ymin>
+			<xmax>1226</xmax>
+			<ymax>1104</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Scaly</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1341</xmin>
+			<ymin>1152</ymin>
+			<xmax>1489</xmax>
+			<ymax>1304</ymax>
+		</bndbox>
+	</object>
+</annotation>
